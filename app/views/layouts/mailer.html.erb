@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>New Message from <%= @post.first_name %> <%= @post.last_name %></h1>
+    <p>Message: 
+       <%= @post.message %>.<br>
+    </p>
+    <p>
+      Contact Info. Email: <%= @post.email %> <br>
+      Phone: <%= @post.phone %>
+    </p>
+    
+  </body>
+</html>
+
+
+ 
