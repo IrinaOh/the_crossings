@@ -277,9 +277,9 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
-/*section {
+section {
   padding: 100px 0;
-}*/
+}
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -749,6 +749,8 @@ body {
 .map {
     height: 500px;
     padding: 0;
+    width: 100%;
+    background-color: grey;
 }
 
 @media(max-width:768px) {
