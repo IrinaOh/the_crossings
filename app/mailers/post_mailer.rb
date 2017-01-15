@@ -1,10 +1,10 @@
 class PostMailer < ApplicationMailer
-	default from: 'irina.v.ohara@gmail.com'
+	default from: ENV['MAILER_EMAIL']
   	layout 'contact_us'
   	def contact_us(post)
   		@post = post
   		mail(
-  			to: "irina.v.ohara@gmail.com", 
+  			to: ENV['MAILER_EMAIL'], 
   			subject: 'New Message from The Crossings Contact Us page', 
   			body: %Q(The following message is from: #{@post.first_name} #{@post.last_name}
   				#{@post.message}
