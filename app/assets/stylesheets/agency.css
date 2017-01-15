@@ -773,3 +773,33 @@ body {
 .call-to-action .btn {
     margin: 10px;
 }
+.section {
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.subSection {
+  height: 40%;
+  padding: 20px;
+  font-size: 25px;
+}
+.sectionOne {
+  background-image: url("../assets/ski.jpg");
+}
+.sectionTwo {
+  background-image: url("../assets/bike.jpg");
+}
+.sectionThree {
+  background-image: url("../assets/golf.jpg");
+}
+.message {
+  font-size: 25px;
+  color: #275117;
+  width: 100%;
+  text-align: center;
+}
+.heber_text{
+  font-size: 25px;
+  margin: 20% 20% 0;
+}
