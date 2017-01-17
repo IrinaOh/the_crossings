@@ -562,7 +562,7 @@ section#contact {
 }
 section#contact .section-heading {
   color: white;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -609,6 +609,9 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+section#location{
+  height: 700px;
 }
 footer {
   padding: 25px 0;
@@ -749,7 +752,7 @@ body {
 /* Map */
 
 .map {
-    height: 500px;
+    height: 400px;
     padding: 0;
     width: 100%;
     background-color: grey;
@@ -767,7 +770,7 @@ body {
 /* Call to Action */
 
 .call-to-action {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .call-to-action .btn {
