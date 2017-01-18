@@ -879,7 +879,7 @@ a.mapplic-zoomout-button {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 	.mapplic-search-clear,
 	.mapplic-tooltip-close {
-		background-image: url(images/cross@2x.png);
+		background-image: image-url(icons/cross@2x.png);
 	}
 
 	.mapplic-levels .mapplic-levels-up {
