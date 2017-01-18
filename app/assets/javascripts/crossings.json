@@ -1,0 +1,311 @@
+{
+	"mapwidth":"600",
+	"mapheight":"540",
+	"categories":[],
+	"levels":[
+		{
+			"id":"crossings",
+			"title":"Crossings",
+			"map":"../assets/crossings.svg",
+			"locations":[
+				{
+					"id": "phase-a",
+					"title": "Phase A",
+					"description": "<p>New South Wales</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d",
+					"x": "0.4375",
+					"y": "0.2500"
+				},
+				{
+					"id": "nt",
+					"title": "Northern Territory.",
+					"description": "<p>Northern Territory</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d",
+					"x": "0.4877",
+					"y": "0.2952"
+				},
+				{
+					"id": "Lot #144",
+					"title": "Lot #144",
+					"description": "$149,900",
+					"pin": "purple",
+					"label": "144",
+					"x": "0.4262",
+					"y": "0.3290"
+				},
+				{
+					"id": "Lot #114",
+					"title": "Lot #114",
+					"description": "make offer",
+					"pin": "purple",
+					"label": "144",
+					"x": "0.6867",
+					"y": "0.4467"
+				},
+				{
+					"id": "Lot #133",
+					"title": "Lot #133",
+					"description": "$279,000",
+					"pin": "purple",
+					"label": "144",
+					"x": "0.4029",
+					"y": "0.1467"
+				},
+				{
+					"id": "Lot #116",
+					"title": "Lot #116",
+					"description": "$249,000",
+					"pin": "purple",
+					"label": "144",
+					"x": "0.7693",
+					"y": "0.4667"
+				},
+				{
+					"id": "Lot #407",
+					"title": "Lot #407",
+					"description": "$124,900",
+					"pin": "orange",
+					"label": "144",
+					"x": "0.5260",
+					"y": "0.4767"
+				},
+				{
+					"id": "Lot #410",
+					"title": "Lot #410",
+					"description": ".46 acres",
+					"pin": "orange",
+					"label": "144",
+					"x": "0.5304",
+					"y": "0.5150"
+				},
+				{
+					"id": "Lot #1302",
+					"title": "Lot #1302",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6272",
+					"y": "0.5473"
+				},
+				{
+					"id": "Lot #1303",
+					"title": "Lot #1303",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6106",
+					"y": "0.5442"
+				},
+				{
+					"id": "Lot #1304",
+					"title": "Lot #1304",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5956",
+					"y": "0.5393"
+				},
+				{
+					"id": "Lot #1305",
+					"title": "Lot #1305",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5800",
+					"y": "0.5356"
+				},
+				{
+					"id": "Lot #1306",
+					"title": "Lot #1306",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5650",
+					"y": "0.5294"
+				},
+				{
+					"id": "Lot #1307",
+					"title": "Lot #1307",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5522",
+					"y": "0.5269"
+				},
+				{
+					"id": "Lot #1320",
+					"title": "Lot #1320",
+					"description": "$129,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.7239",
+					"y": "0.5627"
+				},
+				{
+					"id": "Lot #1321",
+					"title": "Lot #1321",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.7206",
+					"y": "0.5529"
+				},
+				{
+					"id": "Lot #1322",
+					"title": "Lot #1322",
+					"description": "$119,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6761",
+					"y": "0.5473"
+				},
+				{
+					"id": "Lot #1329",
+					"title": "Lot #1329",
+					"description": "$134,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.7117",
+					"y": "0.5164"
+				},
+				{
+					"id": "Lot #1326",
+					"title": "Lot #1326",
+					"description": "$159,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6906",
+					"y": "0.5183"
+				},
+				{
+					"id": "Lot #1330",
+					"title": "Lot #1330",
+					"description": "$139,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.7239",
+					"y": "0.4955"
+				},
+				{
+					"id": "Lot #1331",
+					"title": "Lot #1331",
+					"description": "$149,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.7111",
+					"y": "0.4813"
+				},
+				{
+					"id": "Lot #1332",
+					"title": "Lot #1332",
+					"description": "$149,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6878",
+					"y": "0.4708"
+				},
+				{
+					"id": "Lot #1333",
+					"title": "Lot #1333",
+					"description": "$154,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6672",
+					"y": "0.4646"
+				},
+				{
+					"id": "Lot #1334",
+					"title": "Lot #1334",
+					"description": "$165,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6467",
+					"y": "0.4794"
+				},
+				{
+					"id": "Lot #1335",
+					"title": "Lot #1335",
+					"description": "$234,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6139",
+					"y": "0.4911"
+				},
+				{
+					"id": "Lot #1336",
+					"title": "Lot #1336",
+					"description": "$234,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5928",
+					"y": "0.4819"
+				},
+				{
+					"id": "Lot #1337",
+					"title": "Lot #1337",
+					"description": "$229,500",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5717",
+					"y": "0.4597"
+				},
+				{
+					"id": "Lot #1345",
+					"title": "Lot #1345",
+					"description": "$159,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.5995",
+					"y": "0.5183"
+				},
+				{
+					"id": "Lot #1348",
+					"title": "Lot #1348",
+					"description": "$149,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6556",
+					"y": "0.5306"
+				},
+				{
+					"id": "Lot #1349",
+					"title": "Lot #1349",
+					"description": "$154,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6506",
+					"y": "0.5066"
+				},
+				{
+					"id": "Lot #1401",
+					"title": "Lot #1401",
+					"description": "$259,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6500",
+					"y": "0.4103"
+				},
+				{
+					"id": "Lot #1402",
+					"title": "Lot #1402",
+					"description": "$279,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6295",
+					"y": "0.4035"
+				},
+				{
+					"id": "Lot #1409",
+					"title": "Lot #1409",
+					"description": "$249,900",
+					"pin": "yellow",
+					"label": "144",
+					"x": "0.6445",
+					"y": "0.4442"
+				}
+			]
+		}
+	]
+}
