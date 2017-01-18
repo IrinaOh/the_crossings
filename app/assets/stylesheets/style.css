@@ -22,9 +22,9 @@ h1 {
 	text-align: center;
 }
 
-h3 {
+/*h3 {
 	color: #222;
-}
+}*/
 
 /*p {
 	font-size: 16px;
@@ -164,8 +164,9 @@ a {
 .window-bar {
 	background-color: #f8f8f8; /* #f6f4ed */
 	border-radius: 3px; 
-	margin: 10px 14px 10px 80px;
+	margin: 5px 47px;
 	height: 22px;
+	text-align: center;
 }
 
 /* Editor */
