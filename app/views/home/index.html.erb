@@ -130,7 +130,13 @@ or Request Info:</h2>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                	<%= f.text_field :first_name, placeholder: "Your Name *", :class => "form-control", :id => "name" %>
+                                	<%= f.text_field :first_name, placeholder: "Your First Name *", :class => "form-control", :id => "name" %>
+                    
+                                    <!-- <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."> -->
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <%= f.text_field :last_name, placeholder: "Your Last Name *", :class => "form-control", :id => "name" %>
                     
                                     <!-- <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."> -->
                                     <p class="help-block text-danger"></p>
