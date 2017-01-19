@@ -806,3 +806,21 @@ body {
   font-size: 25px;
   margin: 20% 20% 0;
 }
+.amenities_title{
+  background: #8eba7e;
+  color: white;
+  line-height: 1.75;
+}
+.amenities-image-div{
+  height: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #709e60;
+  text-align: center;
+}
+.amenities-image{
+  width: 100%;
+  height: 200px;
+}
+.amenities-div{
+}
