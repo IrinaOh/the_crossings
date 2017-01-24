@@ -200,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -552,7 +552,8 @@ section h3.section-subheading {
   margin-top: 0;
 }
 aside.clients img {
-  margin: 50px auto;
+  /*margin: 50px auto;*/
+  background-color: #333;
 }
 section#contact {
   background-color: #333;
@@ -770,7 +771,7 @@ body {
 /* Call to Action */
 
 .call-to-action {
-    padding: 50px 0 0 0;
+    /*padding: 50px 0 0 0;*/
 }
 
 .call-to-action .btn {
@@ -896,4 +897,15 @@ ul.b {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+#amenities_bottom_section{
+  background: #333;
+  color: white;
+  font-size: 20px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+.index_image{
+  width: 100%;
+  height: 200px;
 }
