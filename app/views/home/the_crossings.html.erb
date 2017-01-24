@@ -24,8 +24,20 @@
 		<div id="wrap">
 			<!-- Site content -->
 			<div id="content">
-
-				<section id="map-section" class="inner over">
+				<div class="subSection the_crossings_background">
+					<div class="message">
+						
+					</div>
+				</div>
+				<div id="crossings_section">
+					<div class="row">
+		                <div class="col-lg-12 text-center">
+		                    <h2 class="section-heading">About The Crossings</h2>
+		                    <h4 class="section-subheading text-muted ">The Crossings at Lake Creek is a stunning upscale community nestled in the heart of Heber Valley and located on some of the most beautiful and coveted property in the Wasatch Mountains. The Crossings has been carefully planned and designed to enhance a variety of lifestyles while creating a neighborhood that feels like home.</h4>
+		                </div>
+		            </div>
+		        </div>
+				<div id="map-section" class="inner over">
 					<div class="editor-window">
 						<div class="window-mockup brown"></div>
 						<div class="editor-body">
@@ -43,17 +55,19 @@
 					</div>
 
 					<div class="map-container">
-						<div>
-							<div class="window-bar">
-								<h3 class="lots_title">Available Lots</h3>
-							</div>
-						</div>
 						<!-- Map -->
 						<div id="mapplic"></div>
 					</div>
 
-				</section>				
-
+				</div>	
+				<div class="icon glyphicon-tree-conifer:before"></div>
+				<section id="crossings_bottom_section">
+					<div class="row">
+		                <div class="col-lg-12 text-center">
+		                    <p class="section-subheading text-white crossings_footer heber_text">The combination of The Crossings spectacular natural attributes, the development’s vast array of amenities, and community location is a great combination for exploration and relaxation. Whether you stay inside The Crossings community or explore the Valley, you will find delightful activities for all ages, all year long.</p>
+		                </div>
+		            </div>
+		        </section>
 			</div> <!--end site content -->
 
 		</div>
@@ -66,8 +80,8 @@
 			$(document).ready(function() {
 				// Inline JSON example
 				var data = {
-					"mapwidth":"800",
-					"mapheight":"600",
+					"mapwidth":"100%",
+					"mapheight":"1200",
 					"categories":[
 					],
 					"levels":[
@@ -103,7 +117,7 @@
 				$('#mapplic').mapplic({
 					source: '../assets/crossings.json',
 					//source: data,
-					height: 600,
+					height: 800,
 					sidebar: false,
 					minimap: false,
 					zoombuttons: false,
