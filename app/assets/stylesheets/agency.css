@@ -555,7 +555,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #275117;
+  background-color: #333;
   /*background-image: url('../img/map-image.png');*/
   background-position: center;
   background-repeat: no-repeat;
@@ -777,15 +777,17 @@ body {
     margin: 10px;
 }
 .section {
-  height: 700px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .subSection {
-  height: 40%;
+  height: 20%;
   padding: 20px;
   font-size: 25px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
 }
 .sectionOne {
   background-image: url("../assets/ski.jpg");
@@ -798,13 +800,14 @@ body {
 }
 .message {
   font-size: 25px;
-  color: #275117;
+  color: #333;
   width: 100%;
   text-align: center;
+  height: 300px;
 }
 .heber_text{
   font-size: 25px;
-  margin: 20% 20% 0;
+  margin: 0 20%;
 }
 .amenities_title{
   background: #8eba7e;
@@ -838,4 +841,59 @@ ul.b {
   margin-bottom: 20px;
   height: 57px;
   font-size: 34px;
+}
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+#img-developer{
+  height: 350px;
+  width: 350px;
+}
+#text-developer{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+.crossings_text{
+  font-size: 20px;
+  padding: 80px 15% 50px 15%;
+}
+.the_crossings_background{
+  background-image: url("../assets/sunrise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.crossings_heading{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+#crossings_section, #map-section #crossings_bottom_section{
+  padding: 100px 0 0 0;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#crossings_bottom_section{
+  background: #333;
+  color: white;
+  font-size: 20px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+.crossings_footer{
+  font-size: 20px;
+}
+.text-white{
+  color: white;
+}
+.amenities_background{
+  background-image: url("../assets/mountains4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

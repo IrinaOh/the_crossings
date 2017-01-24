@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 	get '/the_crossings' => 'home#the_crossings'
 	get '/amenities' => 'home#amenities'
 	get '/heber_valley' => 'home#heber_valley'
+  get '/developer' => 'home#developer'
 	resources :posts
   	root 'home#index'
 
