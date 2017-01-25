@@ -1,5 +1,11 @@
 /* Landing page scripts */
 $(document).ready(function() {
+	$('.mouse').mouseover(function(){
+		$(this).css({background: 'rgba(234, 234, 234, 0.5'});
+	});
+	$('.mouse').mouseout(function() {
+		$(this).css({background: 'white'});
+	});
 	$('.usage').click(function(e) {
 		e.preventDefault();
 		$('.editor-window').slideToggle(200);

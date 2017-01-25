@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../assets/heber.jpg');
+  background-image: url('../assets/rsz_heber.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -797,17 +797,22 @@ body {
   background-image: url("../assets/bike.jpg");
 }
 .sectionThree {
-  background-image: url("../assets/golf.jpg");
+  background-image: url("../assets/rsz_golf.jpg");
 }
 .message {
   font-size: 25px;
   color: #333;
   width: 100%;
   text-align: center;
-  height: 300px;
+  height: 200px;
+}
+.header-image{
+  width: 100%;
+  text-align: center;
+  height: 350px;
 }
 .heber_text{
-  font-size: 25px;
+  font-size: 20px;
   margin: 0 20%;
 }
 .amenities_title{
@@ -851,8 +856,8 @@ ul.b {
     padding-bottom: 100px;
 }
 #img-developer{
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
 }
 #text-developer{
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -888,6 +893,7 @@ ul.b {
 }
 .crossings_footer{
   font-size: 20px;
+  color: #999;
 }
 .text-white{
   color: white;
