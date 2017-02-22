@@ -763,6 +763,9 @@ body {
     .map {
         height: 75%;
     }
+    section#location{
+      height: 1200px ;
+    }
 }
 
 .map iframe {
@@ -856,8 +859,8 @@ ul.b {
     padding-bottom: 100px;
 }
 #img-developer{
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 100%;
 }
 #text-developer{
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
