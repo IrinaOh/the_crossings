@@ -7,9 +7,9 @@ body {
 }
 
 ul, ol {
-	padding-left: 40px;
 	margin: 0;
 	list-style: none;
+	padding: 0 40px;
 }
 
 h1 {
